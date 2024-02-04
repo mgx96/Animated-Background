@@ -22,7 +22,9 @@ h1{
 }
 
 .navMenu{
-    --button-color: black;
+    --button-color: white;
+    background-color: transparent;
+    border: none;
 }
 
 .menu-line {
