@@ -20,3 +20,38 @@ h1{
     font-size: 100px;
     color: white;
 }
+
+.navMenu{
+    --button-color: black;
+}
+
+.menu-line {
+    transition: stroke-dasharray .7s,stroke-dashoffset .7s;
+    transition-delay: .12s;
+    stroke-width: 3;
+    stroke-linecap: round;
+}
+
+.menu-line.top {
+    stroke-dasharray: 40 172
+}
+
+.menu-line.middle {
+    stroke-dasharray: 40 111
+}
+
+.menu-line.bottom {
+    stroke-dasharray: 40 172
+}
+
+.menu-line.active.top {
+    stroke-dashoffset: -132px
+}
+
+.menu-line.active.middle {
+    stroke-dashoffset: -71px
+}
+
+.menu-line.active.bottom {
+    stroke-dashoffset: -132px
+}
